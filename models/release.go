@@ -12,7 +12,7 @@ import (
 
 	"github.com/go-xorm/xorm"
 
-	"github.com/gogits/gogs/modules/git"
+	"github.com/pecastro/gogs/modules/git"
 )
 
 var (

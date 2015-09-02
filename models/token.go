@@ -8,8 +8,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/uuid"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/uuid"
 )
 
 var (

@@ -5,9 +5,9 @@
 package admin
 
 import (
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/middleware"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/middleware"
 )
 
 const (

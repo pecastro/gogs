@@ -23,9 +23,9 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"
 
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/process"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/process"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 const (

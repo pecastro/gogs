@@ -7,10 +7,10 @@ package v1
 import (
 	"strings"
 
-	"github.com/gogits/gogs/modules/auth/apiv1"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/middleware"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/auth/apiv1"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 // Render an arbitrary Markdown document.

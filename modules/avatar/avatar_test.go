@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogits/gogs/modules/avatar"
-	"github.com/gogits/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/avatar"
+	"github.com/pecastro/gogs/modules/log"
 )
 
 const TMPDIR = "test-avatar"

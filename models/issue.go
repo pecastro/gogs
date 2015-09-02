@@ -19,10 +19,10 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"
 
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/setting"
-	gouuid "github.com/gogits/gogs/modules/uuid"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/setting"
+	gouuid "github.com/pecastro/gogs/modules/uuid"
 )
 
 var (

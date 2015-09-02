@@ -8,9 +8,9 @@ import (
 	"io"
 	"path"
 
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/git"
-	"github.com/gogits/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/git"
+	"github.com/pecastro/gogs/modules/middleware"
 )
 
 func ServeData(ctx *middleware.Context, name string, reader io.Reader) error {

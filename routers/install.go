@@ -17,16 +17,16 @@ import (
 	"github.com/go-xorm/xorm"
 	"gopkg.in/ini.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/cron"
-	"github.com/gogits/gogs/modules/auth"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/mailer"
-	"github.com/gogits/gogs/modules/middleware"
-	"github.com/gogits/gogs/modules/setting"
-	"github.com/gogits/gogs/modules/social"
-	"github.com/gogits/gogs/modules/user"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/models/cron"
+	"github.com/pecastro/gogs/modules/auth"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/mailer"
+	"github.com/pecastro/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/social"
+	"github.com/pecastro/gogs/modules/user"
 )
 
 const (

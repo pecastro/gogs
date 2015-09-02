@@ -21,10 +21,10 @@ import (
 	"github.com/macaron-contrib/oauth2"
 	"github.com/macaron-contrib/session"
 
-	"github.com/gogits/gogs/modules/bindata"
-	"github.com/gogits/gogs/modules/log"
-	// "github.com/gogits/gogs/modules/ssh"
-	"github.com/gogits/gogs/modules/user"
+	"github.com/pecastro/gogs/modules/bindata"
+	"github.com/pecastro/gogs/modules/log"
+	// "github.com/pecastro/gogs/modules/ssh"
+	"github.com/pecastro/gogs/modules/user"
 )
 
 type Scheme string

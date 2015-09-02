@@ -13,10 +13,10 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/Unknwon/macaron"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 const (

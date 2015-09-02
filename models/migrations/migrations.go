@@ -18,9 +18,9 @@ import (
 	"github.com/go-xorm/xorm"
 	"gopkg.in/ini.v1"
 
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/setting"
-	gouuid "github.com/gogits/gogs/modules/uuid"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/setting"
+	gouuid "github.com/pecastro/gogs/modules/uuid"
 )
 
 const _MIN_DB_VER = 0

@@ -24,12 +24,12 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"
 
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/bindata"
-	"github.com/gogits/gogs/modules/git"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/process"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/bindata"
+	"github.com/pecastro/gogs/modules/git"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/process"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 const (

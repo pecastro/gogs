@@ -13,11 +13,11 @@ import (
 
 	"github.com/macaron-contrib/oauth2"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/middleware"
-	"github.com/gogits/gogs/modules/setting"
-	"github.com/gogits/gogs/modules/social"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/social"
 )
 
 func SocialSignIn(ctx *middleware.Context) {

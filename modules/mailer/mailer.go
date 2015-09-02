@@ -13,8 +13,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 type loginAuth struct {
@@ -230,6 +230,8 @@ func Send(msg *Message) (int, error) {
 		return num, nil
 	} else {
 		body := []byte("To: " + strings.Join(msg.To, ";") + "\r\n" + content)
+
+		log.Trace("PEC DBG mail body: %s", body)
 
 		// send to multiple emails in one message
 		err := sendMail(setting.MailService, msg.To, body)

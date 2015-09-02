@@ -13,13 +13,13 @@ import (
 
 	"github.com/Unknwon/com"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/modules/auth"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/git"
-	"github.com/gogits/gogs/modules/log"
-	"github.com/gogits/gogs/modules/middleware"
-	"github.com/gogits/gogs/modules/setting"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/modules/auth"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/git"
+	"github.com/pecastro/gogs/modules/log"
+	"github.com/pecastro/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/setting"
 )
 
 const (

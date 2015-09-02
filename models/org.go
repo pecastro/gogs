@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gogits/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/base"
 )
 
 var (

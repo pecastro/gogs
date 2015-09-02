@@ -9,11 +9,11 @@ import (
 
 	"github.com/Unknwon/paginater"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/modules/base"
-	"github.com/gogits/gogs/modules/middleware"
-	"github.com/gogits/gogs/modules/setting"
-	"github.com/gogits/gogs/routers/user"
+	"github.com/pecastro/gogs/models"
+	"github.com/pecastro/gogs/modules/base"
+	"github.com/pecastro/gogs/modules/middleware"
+	"github.com/pecastro/gogs/modules/setting"
+	"github.com/pecastro/gogs/routers/user"
 )
 
 const (
